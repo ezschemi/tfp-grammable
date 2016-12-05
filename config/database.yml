@@ -21,7 +21,7 @@ default: &default
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: tfp
-  password: <%= ENV['TFP_DATABASE_PASSWORD'] %>
+  password: tfp
 
 development:
   <<: *default
@@ -83,3 +83,4 @@ test:
 production:
   <<: *default
   database: tfp-grammable_production
+  password: <%= ENV['TFP_DATABASE_PASSWORD'] %>

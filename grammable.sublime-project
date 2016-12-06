@@ -1,4 +1,5 @@
 {
+    "rubocop_config_file": ".rubocop.yml",
 	"folders":
 	[
 		{

@@ -55,3 +55,6 @@ end
 gem "bootstrap"
 gem "simple_form"
 gem "devise"
+gem "carrierwave"
+gem "figaro"
+gem "fog"

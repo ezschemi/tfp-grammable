@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"col-md",
+				"col-md-offset-3\t(application.html.erb)"
+			],
+			[
 				"sign",
 				"sign_in"
 			],
@@ -48,19 +56,29 @@
 	"buffers":
 	[
 		{
-			"file": "app/controllers/comments_controller.rb",
+			"file": "app/assets/stylesheets/master.scss",
 			"settings":
 			{
-				"buffer_size": 593,
+				"buffer_size": 1555,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/grams_controller.rb",
+			"file": "app/views/layouts/application.html.erb",
 			"settings":
 			{
-				"buffer_size": 1630,
+				"buffer_size": 1329,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/grams/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 1441,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -81,10 +99,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 398.0,
-		"last_filter": "sync",
+		"height": 150.0,
+		"last_filter": "install",
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"sync",
 				"Sync Settings: Download"
@@ -106,10 +128,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"instal",
 				"Package Control: Install Package"
 			],
@@ -122,7 +140,7 @@
 				"Material Theme: Activate theme"
 			]
 		],
-		"width": 473.0
+		"width": 491.0
 	},
 	"console":
 	{
@@ -148,13 +166,24 @@
 	],
 	"file_history":
 	[
+		"/media/sf_shared/image_blur/readme.md",
+		"/home/enrico/tfp-grammable/app/views/grams/edit.html.erb",
+		"/home/enrico/tfp-grammable/app/views/devise/registrations/new.html.erb",
+		"/home/enrico/tfp-grammable/app/controllers/comments_controller.rb",
+		"/home/enrico/tfp-grammable/app/views/layouts/application.html.erb",
+		"/home/enrico/tfp-grammable/app/controllers/grams_controller.rb",
+		"/home/enrico/tfp-grammable/app/views/devise/sessions/new.html.erb",
+		"/home/enrico/tfp-grammable/app/views/grams/new.html.erb",
+		"/home/enrico/tfp-grammable/app/assets/stylesheets/master.scss",
+		"/home/enrico/tfp-grammable/app/assets/stylesheets/application.scss",
+		"/home/enrico/tfp-grammable/Gemfile",
+		"/home/enrico/tfp-grammable/grammable.sublime-project",
 		"/home/enrico/.config/sublime-text-3/Packages/User/SyncSettings.sublime-settings",
 		"/home/enrico/tfp-grammable/app/models/comment.rb",
 		"/home/enrico/tfp-grammable/app/models/user.rb",
 		"/home/enrico/tfp-grammable/app/models/gram.rb",
 		"/home/enrico/tfp-grammable/config/routes.rb",
 		"/home/enrico/tfp-grammable/db/migrate/20161206074844_create_comments.rb",
-		"/home/enrico/tfp-grammable/app/controllers/grams_controller.rb",
 		"/home/enrico/tfp-grammable/spec/models/comment_spec.rb",
 		"/home/enrico/tfp-grammable/spec/helpers/comments_helper_spec.rb",
 		"/home/enrico/tfp-grammable/app/helpers/comments_helper.rb",
@@ -162,12 +191,9 @@
 		"/home/enrico/tfp-grammable/config/initializers/carrierwave.rb",
 		"/home/enrico/tfp-grammable/app/views/grams/show.html.erb",
 		"/home/enrico/tfp-grammable/app/views/grams/index.html.erb",
-		"/home/enrico/tfp-grammable/app/views/grams/new.html.erb",
-		"/home/enrico/tfp-grammable/grammable.sublime-project",
 		"/home/enrico/tfp-grammable/.rubocop.yml",
 		"/home/enrico/tfp-grammable/spec/factories.rb",
 		"/home/enrico/tfp-grammable/spec/rails_helper.rb",
-		"/home/enrico/tfp-grammable/Gemfile",
 		"/home/enrico/tfp-grammable/app/uploaders/picture_uploader.rb",
 		"/home/enrico/tfp-grammable/config/database.yml",
 		"/home/enrico/tfp-grammable/spec/helpers/grams_helper_spec.rb",
@@ -196,7 +222,7 @@
 	],
 	"find":
 	{
-		"height": 49.0
+		"height": 55.0
 	},
 	"find_in_files":
 	{
@@ -210,6 +236,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"boot",
 			"forb",
 			"#update",
 			"get :edit, id: \"",
@@ -240,29 +267,87 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/controllers/comments_controller.rb",
+					"file": "app/assets/stylesheets/master.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 593,
+						"buffer_size": 1555,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								419,
-								419
+								59,
+								59
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/layouts/application.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1329,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								80,
+								80
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 186.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/grams/index.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1441,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								355,
+								355
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -272,37 +357,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "app/controllers/grams_controller.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1630,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1449,
-								1449
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1668.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "spec/controllers/comments_controller_spec.rb",
 					"semi_transient": false,
 					"settings":
@@ -326,7 +381,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -380,6 +435,54 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"index",
+				"app/views/grams/index.html.erb"
+			],
+			[
+				"applerb",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"edit.",
+				"app/views/grams/edit.html.erb"
+			],
+			[
+				"regisnew",
+				"app/views/devise/registrations/new.html.erb"
+			],
+			[
+				"sesssionsnew",
+				"app/views/devise/sessions/new.html.erb"
+			],
+			[
+				"newerb",
+				"app/views/grams/new.html.erb"
+			],
+			[
+				"index.",
+				"app/views/grams/index.html.erb"
+			],
+			[
+				"applicathtm",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"master",
+				"app/assets/stylesheets/master.scss"
+			],
+			[
+				"appliscss",
+				"app/assets/stylesheets/application.scss"
+			],
+			[
+				"applscss",
+				"app/assets/stylesheets/application.scss"
+			],
+			[
+				"application.htm",
+				"app/views/layouts/application.html.erb"
+			],
 			[
 				"comment",
 				"app/models/comment.rb"
@@ -443,10 +546,6 @@
 			[
 				"carrier",
 				"config/initializers/carrierwave.rb"
-			],
-			[
-				"index.",
-				"app/views/grams/index.html.erb"
 			],
 			[
 				"show.",
